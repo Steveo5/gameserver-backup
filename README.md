@@ -1,5 +1,5 @@
 # Gameserver backup
-This script will backup the configured directories (in tar.gz format) and place them into another configured directory. There is options for how many backups to keep.
+This script will backup the configured directories (in tar.gz format) and place them into another configured directory. There is options for how many backups to keep. You can specify several gameserver types as well which uses special scripting to make sure the gameserver gets backed up properly.
 
 ## The backups.yml file   
 This file configures the backups. The format is below.   
