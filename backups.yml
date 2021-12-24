@@ -1,0 +1,11 @@
+max_backups_to_keep: 3 # max number of each backup to keep
+
+backups:
+  - name: 'survival01' # name of the backup (will have date appended)
+    directory: '/Users/steven/minecraft/survival01'
+    output_directory: '/Users/steven/backup/minecraft'
+    type: 'minecraft'
+    rcon:
+      host: '127.0.0.1'
+      port: 25575
+      password: 'minecraft'
