@@ -1,0 +1,4 @@
+hardcopy.0
+.idea/*
+backups.yml
+__pycache__/
